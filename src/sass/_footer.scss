@@ -3,26 +3,36 @@
     padding-top: 25px;
     padding-bottom: 24px;
 }
+.footer__container {
+    display: inline-block;
+    justify-content: start;
+    align-content: center;
+}
 
 .footer__caption {
     font-weight: 700;
     font-size: 24px;
     line-height: 28px1.17;
     text-align: center;
-
     color: #FFFFFF;
+    margin-bottom: 25px;
 }
 
 .navigation__item {
     font-size: 16px;
     line-height: 100%;
     color: #FFFFFF;
+    margin-bottom: 24px;
 }
 
 .contact-footer__caption {
     font-size: 16px;
     line-height: 1.19;
     color: #FFFFFF;
+}
+
+.contact-footer__mail {
+    margin-bottom: 16px;
 }
 
 .contact-footer__mail {
@@ -33,6 +43,7 @@
 }
 
 .contact-footer__tel {
+    list-style: none;
     font-size: 16px;
     line-height: 19px;
     text-transform: capitalize;
