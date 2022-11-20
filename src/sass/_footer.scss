@@ -35,15 +35,41 @@
     bottom: 39.65%;
 }
 
-.link__soc-icon {
+.footer-social-list__item {
+    margin-bottom: 32px;
+}
+
+.footer-social-list__item:last-child {
+    margin-bottom: 0;
+}
+
+.footer-social-list__item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     background: #FFFFFF;
     border-radius: 16px;
+    width: 24px;
+    height: 24px;
 }
+
+.footer-social-list__link {
+    
+    // background: #FFFFFF;
+    // border-radius: 16px;
+    // width: 24px;
+    // height: 24px;
+}
+
+// .link__soc-icon {
+//     fill: #FFFFFF;
+// }
 
 .contact-footer__caption {
     font-size: 16px;
     line-height: 1.19;
     color: #FFFFFF;
+    margin-bottom: 8px;
 }
 
 .contact-footer__mail {
@@ -63,4 +89,8 @@
     line-height: 19px;
     text-transform: capitalize;
     color: #8D9289;
+    margin-bottom: 8px;
+}
+.contact-footer__tel:last-child {
+    margin-bottom: 0;
 }
