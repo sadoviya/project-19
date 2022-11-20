@@ -694,8 +694,6 @@ body {
 }
 @media screen and (max-width: 767px) {
   .take-order-form {
-    padding-left: 16px;
-    padding-right: 16px;
     max-width: 590px;
   }
 }
