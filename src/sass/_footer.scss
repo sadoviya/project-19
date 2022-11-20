@@ -7,6 +7,7 @@
     display: inline-block;
     justify-content: start;
     align-content: center;
+    position: relative;
 }
 
 .footer__caption {
@@ -23,6 +24,20 @@
     line-height: 100%;
     color: #FFFFFF;
     margin-bottom: 24px;
+}
+
+.footer-social-list {
+    position: absolute;
+    align-content:space-around;
+    left: 82.46%;
+    right: 10.04%;
+    top: 26.43%;
+    bottom: 39.65%;
+}
+
+.link__soc-icon {
+    background: #FFFFFF;
+    border-radius: 16px;
 }
 
 .contact-footer__caption {
