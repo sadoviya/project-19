@@ -1,3 +1,7 @@
+.link {
+  text-decoration: none;
+}
+
 .sale__item2,
 .sale__item4,
 .sale__item6,
@@ -18,7 +22,7 @@
 
 .sale {
   padding-left: 2px;
-  padding-right: 2px;
+  padding-right: 3px;
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -55,30 +59,40 @@
 .sale__header {
   font-style: normal;
   font-weight: 600;
-  font-size: 56px;
-  line-height: 1.17;
+  font-size: 24px;
+  line-height: 1.16;
   color: #ffffff;
-  padding-left: 80px;
+  padding-left: 63px;
   @media screen and (min-width: 768px) {
-    padding-left: 142px;
+    font-size: 56px;
+    line-height: 1.17;
+    padding-left: 102px;
   }
 }
+
+.sale__image {
+  border-radius: 12px;
+  margin-bottom: 8px;
+}
+
 .sale__list {
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
   @media screen and (min-width: 768px) {
     gap: 38px;
   }
-  @media screen and (min-width: 1200px) {
+  @media screen and (min-width: 1280px) {
     gap: 20px;
   }
 }
+
 .sale__item {
   width: 100%;
   @media screen and (min-width: 768px) {
     width: calc((100% - 160px) / 2);
   }
-  @media screen and (min-width: 1200px) {
+  @media screen and (min-width: 1280px) {
     width: calc((100% - 80px) / 4);
   }
 }
@@ -89,7 +103,15 @@
   font-size: 22px;
   line-height: 1.18;
   color: #86e543;
+  margin-bottom: 8px;
 }
+
+.sale-about {
+  display: flex;
+  margin-top: 8px;
+  gap: 80px;
+}
+
 .sale__discount {
   font-style: normal;
   font-weight: 600;
@@ -110,6 +132,7 @@
 .sale__btn {
   display: flex;
   justify-content: center;
+  margin-top: 47px;
 }
 
 .sale__link {
@@ -118,12 +141,11 @@
   line-height: 1.17;
   color: #01383a;
   text-align: center;
-  margin: 16px 48px;
   width: 195px;
   height: 65px;
   background: #ffffff;
   border-radius: 16px;
   text-align: center;
   text-decoration: none;
-  padding: 16px 48px;
+  padding-top: 16px;
 }
