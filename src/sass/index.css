@@ -139,23 +139,130 @@
 }
 
 .footer {
+  display: flex;
   background-color: #001414;
   padding-top: 25px;
   padding-bottom: 24px;
 }
 
+.footer__container {
+  width: 100%;
+  display: inline-block;
+  justify-content: start;
+  align-content: center;
+  position: relative;
+}
+@media screen and (min-width: 480px) {
+  .footer__container {
+    width: 480px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .footer__container {
+    width: 768px;
+    display: flex;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .footer__container {
+    width: 1200px;
+  }
+}
+
 .footer__caption {
   font-weight: 700;
   font-size: 24px;
-  line-height: 28px1 0.17;
-  text-align: center;
+  line-height: 1.17;
   color: #FFFFFF;
+  margin-left: 0;
+  margin-bottom: 25px;
+}
+@media screen and (min-width: 768px) {
+  .footer__caption {
+    margin-bottom: 0;
+    margin-right: 61px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .footer-navigation__list {
+    margin-right: 98px;
+  }
 }
 
 .navigation__item {
   font-size: 16px;
   line-height: 100%;
   color: #FFFFFF;
+  margin-bottom: 24px;
+}
+
+.footer-social-list {
+  position: absolute;
+  align-content: space-around;
+  left: 82.46%;
+  right: 10.04%;
+  top: 26.43%;
+  bottom: 39.65%;
+}
+@media screen and (min-width: 768px) {
+  .footer-social-list {
+    position: static;
+    display: flex;
+    gap: 16px;
+    margin-right: 73px;
+  }
+}
+
+.footer-social-list__item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #FFFFFF;
+  border-radius: 16px;
+  width: 24px;
+  height: 24px;
+  margin-bottom: 32px;
+}
+@media screen and (min-width: 768px) {
+  .footer-social-list__item {
+    margin-bottom: 0;
+  }
+}
+
+.footer-social-list__item:last-child {
+  margin-bottom: 0;
+}
+
+.contact-footer__caption {
+  font-size: 16px;
+  line-height: 1.19;
+  color: #FFFFFF;
+  margin-bottom: 8px;
+}
+
+.contact-footer__mail {
+  margin-bottom: 16px;
+}
+
+.contact-footer__mail {
+  font-size: 16px;
+  line-height: 19px;
+  text-transform: capitalize;
+  color: #8D9289;
+}
+
+.contact-footer__tel {
+  list-style: none;
+  font-size: 16px;
+  line-height: 19px;
+  text-transform: capitalize;
+  color: #8D9289;
+  margin-bottom: 8px;
+}
+
+.contact-footer__tel:last-child {
+  margin-bottom: 0;
 }
 
 .container {

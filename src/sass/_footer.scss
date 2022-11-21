@@ -1,7 +1,12 @@
 .footer {
+    display: flex;
     background-color: #001414;
     padding-top: 25px;
     padding-bottom: 24px;
+    @media screen and (min-width: 1200px) {
+        width: 100%;
+        text-align: justify;
+    }
 }
 .footer__container {
     width: 100%;
@@ -10,15 +15,17 @@
     align-content: center;
     position: relative;
     @media screen and (min-width: 480px) {
-        width: 320px;
+        width: 480px;
     }
 
     @media screen and (min-width: 768px) {
         width: 768px;
+        display: flex;
     }
 
     @media screen and (min-width: 1200px) {
         width: 1200px;
+        justify-content: space-between;
     }
 }
 
@@ -29,6 +36,22 @@
     color: #FFFFFF;
     margin-left: 0;
     margin-bottom: 25px;
+    @media screen and (min-width: 768px) {
+        margin-bottom: 0;
+        margin-right: 61px;
+    }
+    @media screen and (min-width: 1200px) {
+        margin-right: 118px;
+    }
+}
+
+.footer-navigation {
+    @media screen and (min-width: 768px) {
+        margin-right: 98px;
+    }
+    @media screen and (min-width: 1200px) {
+        margin-right: 217px;
+    }
 }
 
 .navigation__item {
@@ -45,14 +68,16 @@
     right: 10.04%;
     top: 26.43%;
     bottom: 39.65%;
-}
-
-.footer-social-list__item {
-    margin-bottom: 32px;
-}
-
-.footer-social-list__item:last-child {
-    margin-bottom: 0;
+    @media screen and (min-width: 768px) {
+        position: static;
+        display: flex;
+        gap: 16px;
+        margin-right: 73px;
+    }
+    @media screen and (min-width: 1200px) {
+        display: block;
+        // margin-right: 281px;
+    }
 }
 
 .footer-social-list__item {
@@ -63,10 +88,33 @@
     border-radius: 16px;
     width: 24px;
     height: 24px;
+    margin-bottom: 32px;
+    @media screen and (min-width:768px) {
+        margin-bottom: 0;
+    }
+    @media screen and (min-width:1200px) {
+        margin-bottom: 16px;
+    }
 }
 
+.footer-social-list__item:last-child {
+    margin-bottom: 0;
+}
+
+// .footer-social-list__item {
+//     display: flex;
+//     justify-content: center;
+//     align-items: center;
+//     background: #FFFFFF;
+//     border-radius: 16px;
+//     width: 24px;
+//     height: 24px;
+//     @media screen and (min-width: 768px) {
+//         gap: 16px;
+//     }
+// }
+
 .footer-social-list__link {
-    
     // background: #FFFFFF;
     // border-radius: 16px;
     // width: 24px;
@@ -76,6 +124,13 @@
 // .link__soc-icon {
 //     fill: #FFFFFF;
 // }
+
+.contact-footer {
+    @media screen and (min-width: 768px) {
+        margin-left: auto;
+        // margin-right: 0;
+    }
+}
 
 .contact-footer__caption {
     font-size: 16px;
