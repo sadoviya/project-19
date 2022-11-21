@@ -1,0 +1,60 @@
+.contacts-bottext {
+  display: flex;
+}
+.contacts-toptext {
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 28px;
+
+  color: #ffffff;
+}
+.contacts-picture {
+  padding-top: 35px;
+  padding-bottom: 16px;
+  @include tablet {
+    padding-top: 67px;
+    padding-bottom: 32px;
+  }
+  @include desktop {
+    padding-top: 75px;
+    padding-bottom: 58px;
+  }
+}
+.incase-text {
+  width: 100%;
+
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 1.17;
+
+  color: #ffffff;
+}
+.incase-email {
+  width: 100%;
+
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 1.17;
+
+  color: #ffffff;
+}
+.contacts-email {
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 1.17;
+  text-transform: capitalize;
+
+  color: #8d9289;
+}
+.contacts-tel {
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 1.17;
+  text-transform: capitalize;
+
+  color: #8d9289;
+}
