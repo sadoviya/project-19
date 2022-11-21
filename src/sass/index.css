@@ -596,38 +596,38 @@ body {
   background-color: #ff0000;
 }
 
-.take-order__section {
+body {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
 }
 @media screen and (max-width: 767px) {
-  .take-order__section {
+  body {
     background-image: url(../images/bg/bg1-1x.jpg);
   }
 }
 @media screen and (max-width: 767px) and (min-device-pixel-ratio: 2), screen and (max-width: 767px) and (-webkit-min-device-pixel-ratio: 2), screen and (max-width: 767px) and (min-resolution: 192dpi) {
-  .take-order__section {
+  body {
     background-image: url(../images/bg/bg1-2x.jpg);
   }
 }
 @media screen and (max-width: 1279px) {
-  .take-order__section {
+  body {
     background-image: url(../images/bg/bg1-tab-1x.jpg);
   }
 }
 @media screen and (max-width: 1279px) and (min-device-pixel-ratio: 2), screen and (max-width: 1279px) and (-webkit-min-device-pixel-ratio: 2), screen and (max-width: 1279px) and (min-resolution: 192dpi) {
-  .take-order__section {
+  body {
     background-image: url(../images/bg/bg1-tab-2x.jpg);
   }
 }
 @media screen and (min-width: 1280px) {
-  .take-order__section {
+  body {
     background-image: url(../images/bg/bg1-desk-1x.jpg);
   }
 }
 @media screen and (min-width: 1280px) and (min-device-pixel-ratio: 2), screen and (min-width: 1280px) and (-webkit-min-device-pixel-ratio: 2), screen and (min-width: 1280px) and (min-resolution: 192dpi) {
-  .take-order__section {
+  body {
     background-image: url(../images/bg/bg1-desk-2x.jpg);
   }
 }
