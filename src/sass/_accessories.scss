@@ -1,5 +1,8 @@
-.accessories {
-background-image: url(/src/images/bg/bg1-1x.jpg);
+@import '../../node_modules/swiper/swiper';
+
+body {
+  position: relative;
+  background-image: url(/src/images/bg/bg1-1x.jpg);
   @include mobile {
     background-image: url(/src/images/bg/bg1-1x.jpg);
   }
@@ -7,16 +10,100 @@ background-image: url(/src/images/bg/bg1-1x.jpg);
     background-image: url(/src/images/bg/bg1-tab-1x.jpg);
   }
   @include desktop {
-    background-image: url(/src/images/bg/bg1-desk-1x.jpg);
+    background-image: url(/src/images/bg/bg1-desk-1x.jpg),
+    url(/src/images/downline.png);
   }
 }
 
-
 .fltr-list {
-
   display: flex;
   list-style: none;
   gap: 30px;
+  justify-content: center;
+  margin: 0 24px 40px 24px;
+  flex-wrap: wrap;
+}
+
+// .li {
+// width: calc((100% - 24px) / 2);
+
+//  @include mobile {
+//   width: calc((100% - 24px) / 2);
+//   }
+//   @include tablet {
+//   width: calc((100% - 20px) / 4);
+//   }
+//   @include desktop{
+//   width: calc((100% - 30px) / 4);
+//   }
+// }
+
+.title-wrap {
+  @include desktop {
+    margin-bottom: 25px;
+  }
+}
+
+.section-title {
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 28px;
+  color: #ffffff;
+
+  @include mobile {
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 28px;
+    margin-left: 16px;
+    margin-bottom: 30px;
+  }
+  @include tablet {
+    font-weight: 600;
+    font-size: 56px;
+    line-height: 66px;
+      margin-left: 88px;
+      margin-bottom: 50px;
+
+  }
+
+  @include desktop {
+    font-weight: 600;
+    font-size: 56px;
+    line-height: calc(66 / 56);
+    color: #ffffff;
+    margin-left: 132px;
+    margin-bottom: 50px;
+  }
+}
+
+.upperline {
+    width: 100%;
+    position: absolute;
+    top: 310px;
+@include desktop{
+   width: 100%;
+    position: absolute;
+    top: 310px;
+}
+// }
+// @include tablet {
+//   transform: scale(-1, -1);
+
+// }
+
+}
+
+.underline {
+    width: 100%;
+    position: absolute;
+    top: 320px;
+
+//   @include tablet {
+//   transform: scale(-1, -1);
+//       top: 318px;
+//     left: 14px;
+  
+// }
 }
 
 .card-list {
@@ -25,19 +112,15 @@ background-image: url(/src/images/bg/bg1-1x.jpg);
   flex-wrap: wrap;
   justify-content: center;
   gap: 36px;
-@include tablet{
- column-gap: 38px;
+  @include tablet {
+    column-gap: 38px;
     row-gap: 47px;
-}
-  @include desktop {
-row-gap: 47px;
-    column-gap: 20px;
-}
-
-
   }
-
-
+  @include desktop {
+    row-gap: 47px;
+    column-gap: 20px;
+  }
+}
 
 .wrap {
   position: relative;
@@ -57,7 +140,6 @@ row-gap: 47px;
   transition-property: box-shadow;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 1, 0.2, 1);
-
 }
 
 .card-sign {
@@ -69,7 +151,7 @@ row-gap: 47px;
   font-size: 22px;
   line-height: calc(26 / 22);
   color: #86e543;
-max-width: 285px;
+  max-width: 285px;
 }
 
 .prices {
