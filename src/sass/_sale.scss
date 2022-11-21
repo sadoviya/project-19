@@ -3,6 +3,7 @@
 }
 
 .sale {
+  position: relative;
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -15,8 +16,6 @@
 
   @media screen and (min-width: 768px) {
     background-image: url(../images/bg/bg1-tab-1x.jpg);
-    // padding-left: 65px;
-    // padding-right: 65px;
     @media (min-device-pixel-ratio: 2),
       (min-resolution: 192dpi),
       (min-resolution: 2dppx) {
@@ -26,8 +25,6 @@
 
   @media screen and (min-width: 1280px) {
     background-image: url(../images/bg/bg1-desk-1x.jpg);
-    // padding-left: 25px;
-    // padding-right: 25px;
     @media (min-device-pixel-ratio: 2),
       (min-resolution: 192dpi),
       (min-resolution: 2dppx) {
@@ -37,6 +34,7 @@
 }
 
 .sale__header {
+  margin-bottom: 35px;
   font-style: normal;
   font-weight: 600;
   font-size: 24px;
@@ -44,9 +42,13 @@
   color: #ffffff;
   padding-left: 63px;
   @media screen and (min-width: 768px) {
-    font-size: 56px;
+    font-size: 51px;
     line-height: 1.17;
     padding-left: 102px;
+    margin-bottom: 51px;
+  }
+  @media screen and (min-width: 1280px) {
+    margin-bottom: 43px;
   }
 }
 
@@ -114,29 +116,12 @@
   }
 }
 
-.sale__item8 {
-  margin-bottom: 25px;
-}
-
 .sale__list {
   display: flex;
   flex-wrap: wrap;
   gap: 24px;
   padding-left: 0;
   justify-content: center;
-  // width: 100%;
-  // @media screen and (min-width: 768px) {
-  //   width: calc((100% - 160px) / 2);
-  // }
-  // @media screen and (min-width: 1280px) {
-  //   width: calc((100% - 80px) / 4);
-  // }
-  // @media screen and (min-width: 768px) {
-  //   gap: 38px;
-  // }
-  // @media screen and (min-width: 1280px) {
-  //   gap: 20px;
-  // }
 }
 
 .sale__name {
@@ -149,12 +134,10 @@
 
 .sale-about {
   display: flex;
-  padding-right: 35px;
   justify-content: space-between;
   align-items: center;
   height: 20px;
   margin-top: 8px;
-  padding-right: 35px;
 }
 
 .sale__discount {
@@ -177,7 +160,16 @@
 .sale__btn {
   display: flex;
   justify-content: center;
-  margin-top: 47px;
+  margin-top: 44px;
+  margin-bottom: 48px;
+  @media screen and (min-width: 768px) {
+    margin-top: 48px;
+    margin-bottom: 120px;
+  }
+  @media screen and (min-width: 1280px) {
+    margin-top: 44px;
+    margin-bottom: 120px;
+  }
 }
 
 // .sale__link {
@@ -194,3 +186,21 @@
 //   text-decoration: none;
 //   padding-top: 16px;
 // }
+
+.sale__upline {
+  width: 100%;
+  position: absolute;
+  top: 1111px;
+  @media screen and (min-width: 768px) {
+    top: 1576px;
+  }
+}
+
+.sale__downline {
+  width: 100%;
+  position: absolute;
+  top: 1115px;
+  @media screen and (min-width: 768px) {
+    top: 1584px;
+  }
+}
