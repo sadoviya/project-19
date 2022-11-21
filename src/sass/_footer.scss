@@ -4,18 +4,30 @@
     padding-bottom: 24px;
 }
 .footer__container {
+    width: 100%;
     display: inline-block;
     justify-content: start;
     align-content: center;
     position: relative;
+    @media screen and (min-width: 480px) {
+        width: 320px;
+    }
+
+    @media screen and (min-width: 768px) {
+        width: 768px;
+    }
+
+    @media screen and (min-width: 1200px) {
+        width: 1200px;
+    }
 }
 
 .footer__caption {
     font-weight: 700;
     font-size: 24px;
-    line-height: 28px1.17;
-    text-align: center;
+    line-height: 1.17;
     color: #FFFFFF;
+    margin-left: 0;
     margin-bottom: 25px;
 }
 
