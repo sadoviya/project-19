@@ -1,5 +1,18 @@
 @import '../../node_modules/swiper/swiper';
 
+.accessories {
+  padding-bottom: 50px;
+  @include mobile {
+    adding-bottom: 50px;
+  }
+  @include tablet {
+    padding-bottom: 120px;
+  }
+  @include desktop {
+    padding-bottom: 120px;
+  }
+}
+
 body {
   position: relative;
   background-image: url(/src/images/bg/bg1-1x.jpg);
@@ -11,7 +24,7 @@ body {
   }
   @include desktop {
     background-image: url(/src/images/bg/bg1-desk-1x.jpg),
-    url(/src/images/downline.png);
+      url(/src/images/downline.png);
   }
 }
 
@@ -61,9 +74,8 @@ body {
     font-weight: 600;
     font-size: 56px;
     line-height: 66px;
-      margin-left: 88px;
-      margin-bottom: 50px;
-
+    margin-left: 88px;
+    margin-bottom: 50px;
   }
 
   @include desktop {
@@ -77,33 +89,32 @@ body {
 }
 
 .upperline {
+  width: 100%;
+  position: absolute;
+  top: 310px;
+  @include desktop {
     width: 100%;
     position: absolute;
     top: 310px;
-@include desktop{
-   width: 100%;
-    position: absolute;
-    top: 310px;
-}
-// }
-// @include tablet {
-//   transform: scale(-1, -1);
+  }
+  // }
+  // @include tablet {
+  //   transform: scale(-1, -1);
 
-// }
-
+  // }
 }
 
 .underline {
-    width: 100%;
-    position: absolute;
-    top: 320px;
+  width: 100%;
+  position: absolute;
+  top: 320px;
 
-//   @include tablet {
-//   transform: scale(-1, -1);
-//       top: 318px;
-//     left: 14px;
-  
-// }
+  //   @include tablet {
+  //   transform: scale(-1, -1);
+  //       top: 318px;
+  //     left: 14px;
+
+  // }
 }
 
 .card-list {
