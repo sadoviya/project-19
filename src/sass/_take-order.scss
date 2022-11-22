@@ -34,6 +34,18 @@
 //     }
 // }
 
+.take-order__section {
+padding-bottom: 48px;
+
+@include tablet {
+    padding-bottom: 120px;
+}
+
+@include desktop {
+    padding-bottom: 120px;
+}
+}
+
 .take-order__title {
     font-family: 'Roboto';
     font-style: normal;
@@ -343,14 +355,12 @@
 
 .take-order-form__div1 {
     @media screen and (min-width: 1280px) {
-        height: 280px;
         flex-basis: calc((100% - 20px) / 2);
     }
 }
 
 .take-order-form__div2 {
     @media screen and (min-width: 1280px) {
-        height: 280px;
         flex-basis: calc((100% - 20px) / 2);
     }
 }
