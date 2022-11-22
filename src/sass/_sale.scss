@@ -1,5 +1,9 @@
 .link {
   text-decoration: none;
+  &:hover,
+  &:focus {
+    color: rgba(134, 229, 67, 1);
+  }
 }
 
 .sale {
@@ -187,20 +191,82 @@
 //   padding-top: 16px;
 // }
 
+.sale__line {
+  width: 100vw;
+}
+
 .sale__upline {
   width: 100%;
   position: absolute;
-  top: 1111px;
+  top: 66px;
   @media screen and (min-width: 768px) {
-    top: 1576px;
+    top: 66px;
   }
 }
 
 .sale__downline {
   width: 100%;
   position: absolute;
-  top: 1115px;
+  top: 66px;
   @media screen and (min-width: 768px) {
-    top: 1584px;
+    top: 74px;
   }
 }
+
+// .sale__line {
+//   display: flex;
+//   width: 100%;
+// }
+
+// .sale-line1 {
+//   width: 121px;
+//   height: 8px;
+//   border: 1px solid #86E543;
+//   border-left: transparent;
+//   border-top: transparent;
+//   margin-left: -15px;
+
+//   @media screen and (min-width: 768px) {
+//       width: 350px;
+//   }
+// }
+
+// .sale-line2 {
+
+//   width: 100%;
+//   height: 1px;
+//   border: 1px solid #7BE34A;
+//   border-left: transparent;
+//   border-top: transparent;
+//   margin-bottom: 3px;
+//   box-shadow: 0px 4px 25px rgba(123, 227, 74, 0.25);
+//   margin-right: -15px;
+
+// }
+
+// .sale-line3 {
+//   width: 125px;
+//   height: 8px;
+//   border: 1px solid #28780D;
+//   border-left: transparent;
+//   border-top: transparent;
+//   margin-left: -15px;
+//   margin-top: -5px;
+//   box-shadow: 0px 4px 25px rgba(40, 120, 13, 0.25);
+
+//   @media screen and (min-width: 768px) {
+//           width: 355px;
+//       }
+// }
+
+// .sale-line4 {
+//   width: 100%;
+//   height: 1px;
+//   border: 1px solid #28780D;
+//   border-left: transparent;
+//   border-top: transparent;
+//   margin-top: -5px;
+//   margin-bottom: 20px;
+//   box-shadow: 0px 4px 25px rgba(40, 120, 13, 0.25);
+//   margin-right: -15px;
+// }
