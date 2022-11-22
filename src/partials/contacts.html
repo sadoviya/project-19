@@ -1,6 +1,39 @@
 <main>
   <div class="contacts contacts-container container">
     <h1 class="contacts-toptext">Сontacts</h1>
+    <svg width="24" height="16">
+      <use href="./images/upline.svg"></use>
+    </svg>
+    <ul class="contacts-picture">
+      <picture>
+        <source
+          srcset="
+            ./images/contact/picture1-desk-1x.jpg 1x,
+            ./images/contact/picture1-desk-2x.jpg 2x
+          "
+          media="(min-width: 1200px)"
+        />
+        <source
+          srcset="
+            ./images/contact/picture1-tab-1x.jpg,
+            ./images/contact/picture1-tab-2x.jpg 2x
+          "
+          media="(min-width: 768px)"
+        />
+        <source
+          srcset="
+            ./images/contact/picture1-1x.jpg,
+            ./images/contact/picture1-2x.jpg 2x
+          "
+          media="(min-width: 320px)"
+        />
+        <img
+          src="./images/contact/picture1-desk-1x.jpg"
+          alt=""
+          width="1200px"
+        />
+      </picture>
+    </ul>
     <!-- <a class="contacts-pic" href=""><img src="" alt="" /></a> -->
     <div class="contacts-bottext">
       <ul class="contacts-list">
@@ -13,7 +46,7 @@
         </li>
         <li class="contacts-item">
           <h3 class="email-text">Email</h3>
-          <a class="footer-email link" href="email:sfg.info@gmail.com"
+          <a class="contacts-email link" href="email:sfg.info@gmail.com"
             >sfg.info@gmail.com</a
           >
         </li>

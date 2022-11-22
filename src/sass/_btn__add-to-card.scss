@@ -1,0 +1,31 @@
+.btn__add-to-card {
+  width: 173px;
+  height: 51px;
+
+  border: 1px solid #86e543;
+  border-radius: 16px;
+
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.19;
+
+  text-align: center;
+  text-transform: uppercase;
+
+  color: #86e543;
+
+  background: transparent;
+
+  &:hover,
+  &:focus {
+    filter: drop-shadow(0px 4px 10px rgba(134, 229, 67, 0.1))
+      drop-shadow(0px 4px 20px rgba(134, 229, 67, 0.4));
+  }
+
+  @include tablet {
+    font-size: 32px;
+
+    width: 306px;
+    height: 70px;
+  }
+}
