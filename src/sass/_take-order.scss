@@ -136,8 +136,8 @@ padding-bottom: 48px;
         position: absolute;
         display: flex;
         align-items: baseline;
-        right: 230px;
-        top: 640px;
+        right: 220px;
+        top: 140px;
     }
 }
 
@@ -176,6 +176,10 @@ padding-bottom: 48px;
     }
 }
 
+.take-order-div {
+    position: relative;
+}
+
 .take-order__title1 {
     font-family: 'Roboto';
     font-style: normal;
@@ -197,7 +201,8 @@ padding-bottom: 48px;
 
     @media screen and (min-width: 1280px) {
         position: absolute;
-        right: 50px;
+        right: 35px;
+
         font-size: 48px;
         line-height: 1.17;
         max-width: 690px;
@@ -333,13 +338,11 @@ padding-bottom: 48px;
 
     @media screen and (min-width: 320px) {
         max-width: 288px;
-        height: 563px;
         margin: 0 auto;
     }
 
     @media screen and (min-width: 768px) and (max-width: 1279px) {
         max-width: 590px;
-        height: 690px;
         margin: 0 auto;
     }
 
@@ -455,6 +458,46 @@ padding-bottom: 48px;
 
 .take-order-form__input:focus,
 .take-order-form__input:hover {
+    background-color: #17573D;
+    outline: transparent;
+}
+
+.take-order-form__select {
+    margin-bottom: 40px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    
+    color: #FFFFFF;
+
+    &::placeholder {
+        color: #FFFFFF;
+    }
+
+    border: none;
+    border-bottom: 2px solid #86E543;
+    background-color: transparent;
+    outline: transparent;
+    
+    @media screen and (min-width: 320px) {
+        font-size: 16px;
+        line-height: 1.25;
+    }
+
+    @media screen and (min-width: 768px) {
+        font-size: 18px;
+        line-height: 1.11;
+    }
+
+    @media screen and (min-width: 1280px) {
+        font-size: 18px;
+        line-height: 1.11;
+    }
+}
+
+.take-order-form__select:focus,
+.take-order-form__select:hover {
     background-color: #17573D;
     outline: transparent;
 }
