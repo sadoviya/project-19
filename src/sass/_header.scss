@@ -40,6 +40,23 @@
     font-size: 16px;
     line-height: 1;
     color: #FFFFFF;
+
+    &::after {
+    content: '';
+    display: block;
+    width: 100%;
+    background-color: transparent;
+    height: 1px;
+    margin-top: 8px;
+        }
+
+    &:hover,
+    &:focus {
+
+        &::after {           
+            background-color: #86E543;           
+            }
+    }    
 }
 
 .mob-menu {
