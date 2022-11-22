@@ -1,9 +1,6 @@
-import Swiper, { Navigation, Pagination } from 'swiper';
+import './partials/js/_slider';
+import './partials/js/_menu';
+// import './partials/js/_modal-send';
+import './partials/js/_modal-add';
+import './partials/js/_modal-buy';
 
-new Swiper('.swiper', {
-	modules: [Navigation, Pagination],
-	pagination: {
-		el: '.swiper-pagination',
-		clickable: true,
-	},
-});

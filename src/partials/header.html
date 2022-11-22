@@ -1,57 +1,73 @@
 
+
+
     <header class="header">
-        <a href="./index.html" class="logo header__logo">Shop for gamers
-        </a>
+        <div class="container header__container">
+            <div class="mob-flex">
+                <a href="./index.html" class="logo header__logo">shop for<br>gamers</a>
+                
+                <button type="button" class="header__menu-btn" data-menu-open>
+                    <svg width="54px" height="36px" class="header__menu-svg">
+                        <use href="./images/sprite.svg#icon-menu"></use>
+                                        
+                    </svg>
+                </button>
 
-    <button type="button" class="header__open-menu-btn">
-        <svg width="54px" height="36px" class="header__open-menu-svg">
-            <use href="./images/sprite.svg#icon-menu"></use>
-        </svg>
+                <nav class="nav header__nav">
+                    <ul class="nav__list">
+                        <li class="nav__item">
+                            <a href="./accessoriese.html" class="nav__link">Accessories
+                            </a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="./contacts.html" class="nav__link">Contact
+                            </a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="./blog.html" class="nav__link">Blog
+                            </a>
+                        </li>
+                    </ul>             
+                </nav>
 
-    <button type="button" class="header__close-menu-btn">
-        <svg width="36px" height="36px" class="header__close-menu-svg">
-            <use href="./images/sprite.svg#icon-cross"></use>
-        </svg>
+                <a href="./accessoriese.html" class="btn__shop-now">
+                    Shop now
+                </a>
+            </div>
+                
+            
+                    <div class="mob-menu is-hidden" data-menu>
 
-        <div class="mob-menu">
-            <ul class="mob-menu__list">
-                <li class="mob-menu__item">
-                    <a href="./accessoriese.html" class="mob-menu__link">
-                        Accessories
-                    </a>
-                </li>
-                <li class="mob-menu__item">
-                    <a href="./contacts.html" class="mob-menu__link">
-                        Contact
-                    </a>
-                </li>
-                <li class="mob-menu__item">
-                    <a href="./blog.html" class="mob-menu__link">
-                        Blog
-                    </a>
-                </li>
-            </ul>
+                        <div class="mob-flex header">
+                            <a href="./index.html" class="logo header__logo">shop for<br>gamers
+                            </a>
+                            
+                            <button type="button" class="header__menu-btn" data-menu-close>
+                                <svg width="36px" height="36px" class="header__menu-svg">
+                                    <use href="./images/sprite.svg#icon-cross"></use>
+                                </svg>
+                            </button>
+                        </div>  
+
+                        <div class="mob-nav-wrap">
+                            <ul class="mob-menu__list">
+                                <li class="mob-menu__item">
+                                    <a href="./accessoriese.html" class="mob-menu__link">
+                                        Accessories
+                                    </a>
+                                </li>
+                                <li class="mob-menu__item">
+                                    <a href="./contacts.html" class="mob-menu__link">
+                                        Contact
+                                    </a>
+                                </li>
+                                <li class="mob-menu__item">
+                                    <a href="./blog.html" class="mob-menu__link">
+                                        Blog
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>               
         </div>
-
-        <nav class="nav header__nav">
-            <ul class="nav__list">
-                <li class="nav__item">
-                    <a href="./accessoriese.html" class="nav__link">Accessories
-                    </a>
-                </li>
-                <li class="nav__item">
-                    <a href="./contacts.html" class="nav__link">Contact
-                    </a>
-                </li>
-                <li class="nav__item">
-                    <a href="./blog.html" class="nav__link">Blog
-                    </a>
-                </li>
-            </ul>
-
-            <a href="./accessoriese.html">
-                Shop now
-            </a>
-        </nav>
-    </button>
     </header>
