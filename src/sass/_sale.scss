@@ -104,7 +104,6 @@
 .sale__column3,
 .sale__column4 {
   width: 100%;
-  display: flex;
   gap: 52px;
   @media screen and (min-width: 768px) {
     width: calc((100% - 160px) / 2);
@@ -147,6 +146,19 @@
   margin-top: 8px;
 }
 
+.sale-about1,
+.sale-about2,
+.sale-about3,
+.sale-about4 {
+  margin-bottom: 44px;
+  @media screen and (min-width: 768px) {
+    margin-bottom: 44px;
+  }
+  @media screen and (min-width: 1280px) {
+    margin-bottom: 44px;
+  }
+}
+
 .sale__discount {
   font-style: normal;
   font-weight: 500;
@@ -167,8 +179,10 @@
 .sale__btn {
   display: flex;
   justify-content: center;
-  margin-top: 44px;
   margin-bottom: 48px;
+  @media screen and (max-width: 767px) {
+    margin-top: 44px;
+  }
   @media screen and (min-width: 768px) {
     margin-top: 48px;
     margin-bottom: 120px;
