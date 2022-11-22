@@ -3,12 +3,16 @@
 .accessories {
   padding-bottom: 50px;
   @include mobile {
-    adding-bottom: 50px;
+    padding-bottom: 50px;
+    padding-top: 50px;
+
   }
   @include tablet {
+    padding-top: 120px;
     padding-bottom: 120px;
   }
   @include desktop {
+    padding-top: 120px;
     padding-bottom: 120px;
   }
 }
