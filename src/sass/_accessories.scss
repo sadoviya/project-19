@@ -2,10 +2,10 @@
 
 .accessories {
   padding-bottom: 50px;
+  padding-top: 50px;
   @include mobile {
     padding-bottom: 50px;
     padding-top: 50px;
-
   }
   @include tablet {
     padding-top: 120px;
@@ -41,25 +41,7 @@ body {
   flex-wrap: wrap;
 }
 
-// .li {
-// width: calc((100% - 24px) / 2);
 
-//  @include mobile {
-//   width: calc((100% - 24px) / 2);
-//   }
-//   @include tablet {
-//   width: calc((100% - 20px) / 4);
-//   }
-//   @include desktop{
-//   width: calc((100% - 30px) / 4);
-//   }
-// }
-
-.title-wrap {
-  @include desktop {
-    margin-bottom: 25px;
-  }
-}
 
 .section-title {
   font-weight: 600;
@@ -72,14 +54,12 @@ body {
     font-size: 24px;
     line-height: 28px;
     margin-left: 16px;
-    margin-bottom: 30px;
   }
   @include tablet {
     font-weight: 600;
     font-size: 56px;
     line-height: 66px;
-    margin-left: 88px;
-    margin-bottom: 50px;
+  
   }
 
   @include desktop {
@@ -87,8 +67,8 @@ body {
     font-size: 56px;
     line-height: calc(66 / 56);
     color: #ffffff;
-    margin-left: 132px;
-    margin-bottom: 50px;
+    margin-left: 142px;
+  
   }
 }
 
@@ -208,4 +188,70 @@ body {
   .card-item:hover & {
     transform: translateY(0);
   }
+}
+
+.superlinewrap {
+  display: flex;
+  width: 100%;
+}
+
+.superline1 {
+  width: 350px;
+  height: 8px;
+  border: 1px solid #86e543;
+  border-left: transparent;
+  border-top: transparent;
+  margin-left: -15px;
+@include mobile {
+    width: 350px;
+  }
+  @include tablet {
+    width: 850px;
+  }
+  @media screen and (min-width: 1280px) {
+    width: 950px;
+  }
+}
+
+.superline2 {
+  width: 100%;
+  height: 1px;
+  border: 1px solid #7be34a;
+  border-left: transparent;
+  border-top: transparent;
+  margin-bottom: 3px;
+  box-shadow: 0px 4px 25px rgba(123, 227, 74, 0.25);
+  margin-right: -15px;
+}
+
+.superline3 {
+  width: 365px;
+  height: 8px;
+  border: 1px solid #28780d;
+  border-left: transparent;
+  border-top: transparent;
+  margin-left: -15px;
+  margin-top: -5px;
+  box-shadow: 0px 4px 25px rgba(40, 120, 13, 0.25);
+  @include mobile {
+  width: 365px;
+  }  
+  @include tablet {
+    width: 865px;
+  }
+  @media screen and (min-width: 1280px) {
+    width: 965px;
+  }
+}
+
+.superline4 {
+  width: 100%;
+  height: 1px;
+  border: 1px solid #28780d;
+  border-left: transparent;
+  border-top: transparent;
+  margin-top: -5px;
+  margin-bottom: 20px;
+  box-shadow: 0px 4px 25px rgba(40, 120, 13, 0.25);
+  margin-right: -15px;
 }
