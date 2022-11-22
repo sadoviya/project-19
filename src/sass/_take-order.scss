@@ -137,7 +137,7 @@ padding-bottom: 48px;
         display: flex;
         align-items: baseline;
         right: 230px;
-        top: 525px;
+        top: 640px;
     }
 }
 
@@ -229,7 +229,7 @@ padding-bottom: 48px;
         height: auto;
         margin-top: 0;
         margin-bottom: 0;
-        margin-left: 0;
+        margin-left: 25px;
         margin-right: 0;
     }
 }
@@ -278,6 +278,8 @@ padding-bottom: 48px;
 
     @media screen and (min-width: 1280px) {
         font-size: 48px;
+
+        margin-top: 0;
     }
 }
 
@@ -294,7 +296,7 @@ padding-bottom: 48px;
 
     @media screen and (min-width: 1280px) {
         gap: 24px;
-        margin-right: 40px;
+        margin-right: 25px;
     }
 }
 
@@ -342,7 +344,7 @@ padding-bottom: 48px;
     }
 
     @media screen and (min-width: 1280px) {
-        max-width: 1180px;
+        max-width: 1210px;
     }
 }
 
