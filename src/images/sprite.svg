@@ -21,5 +21,9 @@
     <symbol id="icon-facebook" viewBox="0 0 32 32">
       <path d="M23.999 10.362h-5.903V7.041c0-1.247.964-1.538 1.642-1.538h4.166V.02L18.167.001c-6.369 0-7.818 4.09-7.818 6.707v3.655H6.666v5.65h3.683v15.988h7.747V16.013h5.227l.676-5.65z"/>
     </symbol>
+
+    <symbol id="icon-crossone" viewBox="0 0 32 32">
+<path stroke-linejoin="miter" stroke-linecap="round" stroke-miterlimit="4" stroke-width="3.5556" d="M29.63 30.222l-27.259-28.444M29.63 1.778l-27.259 28.444"></path>
+</symbol>
   </defs>
 </svg>
