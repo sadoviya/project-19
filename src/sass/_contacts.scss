@@ -238,6 +238,10 @@
 }
 
 .submit-button {
+      margin-top: 25px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 50px;
   @include mobile {
     margin-top: 25px;
     margin-left: auto;
