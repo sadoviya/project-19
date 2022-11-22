@@ -8,33 +8,33 @@
 
 .sale {
   position: relative;
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-  background-image: url(../images/bg/bg1-1x.jpg);
-  @media (min-device-pixel-ratio: 2),
-    (min-resolution: 192dpi),
-    (min-resolution: 2dppx) {
-    background-image: url(../images/bg/bg1-2x.jpg);
-  }
+  // background-repeat: no-repeat;
+  // background-position: center;
+  // background-size: cover;
+  // background-image: url(../images/bg/bg1-1x.jpg);
+  // @media (min-device-pixel-ratio: 2),
+  //   (min-resolution: 192dpi),
+  //   (min-resolution: 2dppx) {
+  //   background-image: url(../images/bg/bg1-2x.jpg);
+  // }
 
-  @media screen and (min-width: 768px) {
-    background-image: url(../images/bg/bg1-tab-1x.jpg);
-    @media (min-device-pixel-ratio: 2),
-      (min-resolution: 192dpi),
-      (min-resolution: 2dppx) {
-      background-image: url(../images/bg/bg1-tab-2x.jpg);
-    }
-  }
+  // @media screen and (min-width: 768px) {
+  //   background-image: url(../images/bg/bg1-tab-1x.jpg);
+  //   @media (min-device-pixel-ratio: 2),
+  //     (min-resolution: 192dpi),
+  //     (min-resolution: 2dppx) {
+  //     background-image: url(../images/bg/bg1-tab-2x.jpg);
+  //   }
+  // }
 
-  @media screen and (min-width: 1280px) {
-    background-image: url(../images/bg/bg1-desk-1x.jpg);
-    @media (min-device-pixel-ratio: 2),
-      (min-resolution: 192dpi),
-      (min-resolution: 2dppx) {
-      background-image: url(../images/bg/bg1-desk-2x.jpg);
-    }
-  }
+  // @media screen and (min-width: 1280px) {
+  //   background-image: url(../images/bg/bg1-desk-1x.jpg);
+  //   @media (min-device-pixel-ratio: 2),
+  //     (min-resolution: 192dpi),
+  //     (min-resolution: 2dppx) {
+  //     background-image: url(../images/bg/bg1-desk-2x.jpg);
+  //   }
+  // }
 }
 
 .sale__header {
@@ -133,7 +133,7 @@
 
 .sale__name {
   font-style: normal;
-  font-weight: 600;
+  font-weight: 500;
   font-size: 22px;
   line-height: 1.18;
   color: #86e543;
@@ -149,7 +149,7 @@
 
 .sale__discount {
   font-style: normal;
-  font-weight: 600;
+  font-weight: 500;
   font-size: 14px;
   line-height: 1;
   text-decoration-line: line-through;
@@ -158,7 +158,7 @@
 
 .sale__price {
   font-style: normal;
-  font-weight: 600;
+  font-weight: 500;
   font-size: 20px;
   line-height: 1;
   color: #86e543;
