@@ -3,12 +3,14 @@
 
     <header class="header">
         <div class="container header__container">
-            <div class="mob-flex">
+            <div class="head-flex">
                 <a href="./index.html" class="logo header__logo">shop for<br>gamers</a>
                 
-                <button type="button" class="header__menu-btn" data-menu-open>
+                <button type="button" class="header__menu-btn" >
                     <svg width="54px" height="36px" class="header__menu-svg">
-                        <use href="./images/sprite.svg#icon-menu"></use>
+                        <use href="./images/sprite.svg#icon-menu" class="menu-open" data-menu-open></use>
+
+                        <use href="./images/icon-cross2.svg" class="menu-close" data-menu-close></use>
                                         
                     </svg>
                 </button>
@@ -38,18 +40,20 @@
             
                     <div class="mob-menu is-hidden" data-menu>
 
-                        <div class="mob-flex header">
-                            <a href="./index.html" class="logo header__logo">shop for<br>gamers
-                            </a>
-                            
-                            <button type="button" class="header__menu-btn" data-menu-close>
-                                <svg width="36px" height="36px" class="header__menu-svg">
-                                    <use href="./images/sprite.svg#icon-cross"></use>
-                                </svg>
-                            </button>
-                        </div>  
+                        <!-- <div class="header">
+                            <div class="container mob-flex">
+                                <a href="./index.html" class="logo header__logo">shop for<br>gamers
+                                </a>
+                                
+                                <button type="button" class="header__menu-btn" data-menu-close>
+                                    <svg width="36px" height="36px" class="header__menu-svg">
+                                        <use href="./images/sprite.svg#icon-cross"></use>
+                                    </svg>
+                                </button>
+                            </div>
+                        </div>   -->
 
-                        <div class="mob-nav-wrap">
+                        <!-- <div class="mob-nav-wrap"> -->
                             <ul class="mob-menu__list">
                                 <li class="mob-menu__item">
                                     <a href="./accessoriese.html" class="mob-menu__link">
@@ -67,7 +71,7 @@
                                     </a>
                                 </li>
                             </ul>
-                        </div>
+                        <!-- </div> -->
                     </div>               
         </div>
     </header>
