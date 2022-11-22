@@ -137,7 +137,7 @@ padding-bottom: 48px;
         display: flex;
         align-items: baseline;
         right: 230px;
-        top: 570px;
+        top: 525px;
     }
 }
 
@@ -196,8 +196,11 @@ padding-bottom: 48px;
     }
 
     @media screen and (min-width: 1280px) {
-        font-size: 56px;
+        position: absolute;
+        right: 50px;
+        font-size: 48px;
         line-height: 1.17;
+        max-width: 690px;
     }
 }
 
