@@ -25,5 +25,9 @@
     <symbol id="icon-crossone" viewBox="0 0 32 32">
 <path stroke-linejoin="miter" stroke-linecap="round" stroke-miterlimit="4" stroke-width="3.5556" d="M29.63 30.222l-27.259-28.444M29.63 1.778l-27.259 28.444"></path>
 </symbol>
+
+<symbol id="cross-icon" viewBox="0 0 32 32">
+<path fill="none" stroke="#86e543" style="stroke: var(--color1, #86e543)" stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="4" stroke-width="3.4286" d="M28.857 3.143l-25.714 25.714M3.143 3.143l25.714 25.714"></path>
+</symbol>
   </defs>
 </svg>
