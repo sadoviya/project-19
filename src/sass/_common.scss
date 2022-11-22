@@ -3,3 +3,11 @@
 body {
   font-family: 'Roboto', 'Open Sans';
 }
+
+main {
+  padding-top: 104px;
+
+  @include tablet {
+    padding-top: 136px;
+  }
+}
