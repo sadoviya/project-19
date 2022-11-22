@@ -1,12 +1,15 @@
 
+
+
     <header class="header">
         <div class="container header__container">
             <div class="mob-flex">
                 <a href="./index.html" class="logo header__logo">shop for<br>gamers</a>
                 
-                <button type="button" class="header__menu-btn">
+                <button type="button" class="header__menu-btn" data-menu-open>
                     <svg width="54px" height="36px" class="header__menu-svg">
                         <use href="./images/sprite.svg#icon-menu"></use>
+                                        
                     </svg>
                 </button>
 
@@ -33,13 +36,13 @@
             </div>
                 
             
-                    <div class="mob-menu ">
+                    <div class="mob-menu is-hidden" data-menu>
 
                         <div class="mob-flex header">
                             <a href="./index.html" class="logo header__logo">shop for<br>gamers
                             </a>
                             
-                            <button type="button" class="header__menu-btn">
+                            <button type="button" class="header__menu-btn" data-menu-close>
                                 <svg width="36px" height="36px" class="header__menu-svg">
                                     <use href="./images/sprite.svg#icon-cross"></use>
                                 </svg>
@@ -65,11 +68,6 @@
                                 </li>
                             </ul>
                         </div>
-                    </div>
-            
-                    
-
-                    
-                
+                    </div>               
         </div>
     </header>
