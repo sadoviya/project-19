@@ -19,11 +19,13 @@
 
 body {
   position: relative;
-  background-image: url(/src/images/bg/bg1-1x.jpg);
-  @media (min-resolution: 2dppx) {
+    background-image: url(/src/images/bg/bg1-1x.jpg);
+    @media (min-resolution: 2dppx) {
     background-image: url(/src/images/bg/bg1-2x.jpg);
-    // width:480px ;
+    background-size:388px 4096px;
+    
   }
+   
   @include mobile {
     background-image: url(/src/images/bg/bg1-1x.jpg);
     @media (min-resolution: 2dppx) {
@@ -47,6 +49,7 @@ body {
   }
   }
 }
+
 
 .fltr-list {
   display: flex;
