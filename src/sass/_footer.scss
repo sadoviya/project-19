@@ -100,6 +100,14 @@
     font-size: 16px;
     line-height: 100%;
     color: #FFFFFF;
+
+    transition: text-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    
+        &:hover,
+        &:focus {
+            text-shadow: 0px 4px 20px rgba(255, 255, 255, 0.5),
+                0px 4px 10px rgba(134, 229, 67, 0.1);
+        }
 }
 
 .footer-social-list {
@@ -181,15 +189,30 @@
     text-transform: capitalize;
     color: #8D9289;
     text-decoration: none;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+        &:hover,
+        &:focus {
+            color: #86E543;
+            text-shadow: 0px 4px 25px rgba(123, 227, 74, 0.25);
+    }
 }
 
-.contact-footer__tel {
+.contact-footer__tel-link {
+    text-decoration: none;
     list-style: none;
     font-size: 16px;
     line-height: 19px;
     text-transform: capitalize;
     color: #8D9289;
     margin-bottom: 8px;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    
+    &:hover,
+    &:focus {
+        color: #86E543;
+        text-shadow: 0px 4px 25px rgba(123, 227, 74, 0.25);
+    }
 }
 .contact-footer__tel:last-child {
     margin-bottom: 0;
