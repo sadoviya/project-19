@@ -1,17 +1,25 @@
 <main>
-  <div class="contacts contacts-container container">
-    <h1 class="contacts-toptext">Сontacts</h1>
-    <svg width="24" height="16">
-      <use href="./images/upline.svg"></use>
-    </svg>
-    <ul class="contacts-picture">
-      <picture>
+  <div class="  container">
+    <h1 class="contacts-topitext">Сontacts</h1>
+    
+      <div class="super_linewrap">
+      <div class="super_line1"></div>
+      <div class="super_line2"></div>
+    </div>
+
+    <div class="super_linewrap">
+      <div class="super_line3"></div>
+      <div class="super_line4"></div>
+    </div>
+    <!-- </div> -->
+     <div class="contpic-container">
+      <picture class="contacts-picture">
         <source
           srcset="
             ./images/contact/picture1-desk-1x.jpg 1x,
             ./images/contact/picture1-desk-2x.jpg 2x
           "
-          media="(min-width: 1200px)"
+          media="(min-width: 1280px)"
         />
         <source
           srcset="
@@ -25,75 +33,74 @@
             ./images/contact/picture1-1x.jpg,
             ./images/contact/picture1-2x.jpg 2x
           "
-          media="(min-width: 320px)"
+          media="(max-width: 768px)"
         />
         <img
           src="./images/contact/picture1-desk-1x.jpg"
           alt=""
           width="1200px"
+          class="con-pic"
         />
       </picture>
-    </ul>
-    <!-- <a class="contacts-pic" href=""><img src="" alt="" /></a> -->
-    <div class="contacts-bottext">
-      <ul class="contacts-list">
-        <li class="contacts-item">
+      </div>
+
+   <!-- <div class="container"> -->
+          <div class="overall-wrap">
+          <div class="context-container">
           <h2 class="incase-text">
             In case of queries about order handling and/or delay, drop us an
-            email at
+            email at 
+            <br> <br>
+             <a href="./index.html" class="text-link">info@shopforgamers.com </a> 
           </h2>
-          <h2 class="incase-email">info@shopforgamers.com</h2>
-        </li>
-        <li class="contacts-item">
-          <h3 class="email-text">Email</h3>
-          <a class="contacts-email link" href="email:sfg.info@gmail.com"
+     
+         <div class="contacts-item">
+        <div class="contacts-email">
+          <p class="et-text">Email</p>
+          <a class="contacts-email" href="email:sfg.info@gmail.com"
             >sfg.info@gmail.com</a
           >
-        </li>
-        <li class="contacts-item">
-          <h3 class="tel-text">Phone number</h3>
-          <a class="contacts-tel link" href="tel:+38 (093) 643 22 88"
-            >+38 (093) 643 22 88</a
-          >
-          <a class="contacts-tel link" href="tel:+38 (050) 345 44 23"
-            >+38 (050) 345 44 23</a
-          >
-        </li>
-      </ul>
+        </div>
+        <div class="contacts-tel">
+          <p class="et-text">Phone number</p>
+          <a class="contacts-tel " href="tel:+38 (093) 643 22 88"
+            >+38 (093) 643 22 88 <br> +38 (050) 345 44 23</a>
+        </div>
+      </div>
     </div>
-    <form>
-      <p class="form-text">CONTACT US</p>
-      <label>
-        <span class="form-label-text">Name</span>
-        <span class="input-wrap">
+    <div class="inputs-container">
+      <form class="contact-form">
+      <p class="form-title">CONTACT US</p>
+      <label class="input-name">
           <input
             type="name"
             class="form-input"
             name="user-name"
-            required
-          /> </span
-      ></label>
-      <label>
-        <span class="form-label-text">Email</span>
-        <span class="input-wrap">
-          <input
-            type="email"
-            class="modal-input"
-            name="user-email"
-            required
-          /> </span
-      ></label>
-      <label>
-        <span class="form-label-text">Leave your message</span>
+            placeholder="Name"
+            required/> 
+          <!-- </span -->
+      </label>
+      <label class="input-mail">
+         <input
+            type="name"
+            class="form-input"
+            name="user-name"
+            placeholder="Email"
+            required/> 
+      </label>
+      <div class="comment-wrap">
+      <label class="comment-label">
+        <span class="comment-label-text">Leave your message</span>
         <textarea
           name="user-text"
-          id="user-text"
-          class="form-comment"
-        ></textarea>
-        <span class="submit-button">
-          <button type="submit" class="btn__send" data-modal-send-open>SEND</button></span
-        >
+          id="user-text" 
+          class="comment-area">
+       </textarea>
       </label>
+       <span class="submit-button">
+          <button type="button" class="btn__send" data-modal-send-open>SEND</button></span>
+        </div>
     </form>
-  </div>
+    </div>
+    </div>
 </main>
