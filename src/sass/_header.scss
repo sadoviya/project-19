@@ -1,9 +1,4 @@
 
-.is-hidden {
-    visibility: hidden;
-    opacity: 0;
-    pointer-events: none;
-}
 
 .header {
     padding-top: 24px;
@@ -94,6 +89,10 @@
                     url(../images/bg/bg-menu-tab-2x.jpg);
             }
         }
+}
+
+.is-hidden {
+    transform: translateY(-100%);
 }
 
 .head-flex {
@@ -203,10 +202,6 @@ transition: transform 250ms linear;
         }
     }
 
-}
-
-.mob-menu.is-hidden {
-transform: translateY(-100%);
 }
 
 .menu-close {
