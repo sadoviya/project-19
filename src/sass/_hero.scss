@@ -1,0 +1,178 @@
+.hero {
+  background-image: url('../images/hero/fon-hero-bg.png');
+  //  linear-gradient(#7be34a 30%, #86c23d, #01383a, #3aaf44, #81bb43, #86e543);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  padding-top: 180px;
+  padding-bottom: 247px;
+  overflow: hidden;
+  position: relative;
+
+  @media screen and (min-width: 768px) {
+    padding-top: 154px;
+  }
+
+  @media screen and (min-width: 1280px) {
+    background-position: center -150px;
+    background-size: cover;
+    max-width: 1280px;
+    margin: 0 auto;
+  }
+
+  &__container {
+    @media screen and (min-width: 1280px) {
+      padding-left: 102px;
+      padding-right: 90px;
+    }
+  }
+
+  &::before {
+    content: '';
+    position: absolute;
+    background-image: url('../images/hero/headphones-mobile.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 150px;
+    height: 186px;
+    top: -23px;
+    right: -5px;
+    transform: rotate(28deg);
+    filter: drop-shadow(0px 4px 25px #5eec36);
+
+    @media screen and (min-width: 768px) {
+      top: 30%;
+      right: 100px;
+      background-image: url('../images/hero/headphones-tablet.png');
+      width: 180px;
+      height: 223px;
+      transform: rotate(10.77deg);
+    }
+
+    @media screen and (min-width: 1280px) {
+      right: 90px;
+      width: 270px;
+      height: 335px;
+      top: 20%;
+      right: 90px;
+    }
+  }
+
+  &::after {
+    content: '';
+    position: absolute;
+    background-image: url('../images/hero/mous-mobile.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 66px;
+    height: 99px;
+    top: 58px;
+    left: 16px;
+    transform: rotate(-29deg);
+    filter: drop-shadow(0px 4px 25px #5eec36);
+
+    @media screen and (min-width: 768px) {
+      top: 49px;
+      left: 50%;
+      width: 100px;
+      height: 165px;
+    }
+
+    @media screen and (min-width: 1280px) {
+      top: 49px;
+      left: 50%;
+      width: 133px;
+      height: 220px;
+    }
+  }
+
+  &__title {
+    font-weight: 500;
+    font-size: 32px;
+    line-height: calc(38 / 32);
+    letter-spacing: 0.06em;
+    text-align: center;
+    color: #ffffff;
+    max-width: 247px;
+    margin: 0 auto 25px;
+
+    @media screen and (min-width: 768px) {
+      margin-top: 0;
+      margin-left: 0;
+      margin-right: 0;
+      margin-bottom: 94px;
+      text-align: left;
+      font-size: 56px;
+      line-height: calc(66 / 56);
+      max-width: 406px;
+    }
+
+    @media screen and (min-width: 1280px) {
+      margin: 0 0 40px 0;
+      font-size: 64px;
+      line-height: calc(75 / 64);
+      max-width: 462px;
+    }
+  }
+  &__link {
+    display: block;
+    text-align: center;
+    max-width: 185px;
+    margin: 0 auto;
+    padding: 16px 20px;
+    background-color: #86e543;
+    border-radius: 16px;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: calc(19 / 16);
+    text-transform: uppercase;
+    color: #01383a;
+    text-decoration: none;
+    position: relative;
+    transition: box-shadow 0.3s ease;
+
+    &:hover {
+      box-shadow: 0px 8px 20px rgba(134, 229, 67, 0.5),
+        0px 4px 10px rgba(255, 255, 255, 0.1);
+    }
+
+    @media screen and (min-width: 768px) {
+      margin: 0;
+      font-size: 32px;
+      line-height: calc(38 / 32);
+      max-width: 312px;
+    }
+
+    &::after {
+      content: '';
+      position: absolute;
+      background-image: url('../images/hero/keyboard-mobile.png');
+      background-repeat: no-repeat;
+      background-size: contain;
+      width: 88px;
+      height: 42px;
+      bottom: -90px;
+      left: 50%;
+      transform: rotate(30deg);
+      filter: drop-shadow(0px 4px 25px #5eec36);
+
+      @media screen and (min-width: 768px) {
+        background-image: url('../images/hero/keyboard-tablet.png');
+        bottom: -60px;
+        left: 130%;
+        transform: rotate(0);
+        background-size: cover;
+        width: 143px;
+        height: 100px;
+      }
+
+      @media screen and (min-width: 1280px) {
+        left: 170%;
+        bottom: -100px;
+        background-image: url('../images/hero/keyboard-des.png');
+        width: 230px;
+        height: 180px;
+      }
+    }
+  }
+}
