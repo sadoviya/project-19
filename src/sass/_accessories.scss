@@ -37,7 +37,7 @@ body {
   list-style: none;
   gap: 30px;
   justify-content: center;
-  margin: 0 24px 40px 24px;
+  margin: 0 20px 40px 20px;
   flex-wrap: wrap;
 }
 
@@ -121,6 +121,9 @@ body {
   position: relative;
   overflow: hidden;
   border-radius: 12px;
+   transition-property: border, box-shadow;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 1, 0.2, 1);
   &:hover {
     border: 1px solid #86e543;
     box-shadow: 0px 4px 4px rgba(134, 229, 67, 0.2);
