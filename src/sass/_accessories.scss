@@ -187,7 +187,7 @@ body {
   padding: 40px;
   height: 100%;
   transform: translateY(100%);
-  transition: 1000ms;
+  transition: 250ms;
   overflow: auto;
   .card-item:hover & {
     transform: translateY(0);
