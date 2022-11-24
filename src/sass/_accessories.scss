@@ -20,15 +20,26 @@
 body {
   position: relative;
   background-image: url(/src/images/bg/bg1-1x.jpg);
+  @media (min-resolution: 2dppx) {
+    background-image: url(/src/images/bg/bg1-2x.jpg);
+  }
   @include mobile {
     background-image: url(/src/images/bg/bg1-1x.jpg);
+    @media (min-resolution: 2dppx) {
+    background-image: url(/src/images/bg/bg1-2x.jpg);
+  }
   }
   @include tablet {
     background-image: url(/src/images/bg/bg1-tab-1x.jpg);
+    @media (min-resolution: 2dppx) {
+    background-image: url(/src/images/bg/bg1-tab-2x.jpg);
+  }
   }
   @include desktop {
-    background-image: url(/src/images/bg/bg1-desk-1x.jpg),
-      url(/src/images/downline.png);
+    background-image: url(/src/images/bg/bg1-desk-1x.jpg);
+    @media (min-resolution: 2dppx) {
+    background-image: url(/src/images/bg/bg1-desk-2x.jpg);
+  }
   }
 }
 
