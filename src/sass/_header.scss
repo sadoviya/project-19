@@ -73,7 +73,7 @@
   height: 100vh;
 
   transform: translateY(0);
-  transition: transform 250ms linear;
+  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
   padding-top: 168px;
   background-image: url(../images/bg/bg-menu-1x.jpg);
