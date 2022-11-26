@@ -57,7 +57,7 @@
   margin-right: auto;
   width: 100%;
 
-  
+
   // @media screen and (min-width: 480px) {
   //   width: 480px;
   // }
@@ -177,6 +177,7 @@
   @include tablet {
     padding-left: 80px;
     padding-right: 80px;
+        width: 100%;
   }
 }
 
