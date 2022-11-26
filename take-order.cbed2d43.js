@@ -1,0 +1,2 @@
+!function(){var o={openModalBtn1:document.querySelector("[data-modal-add-open]"),closeModalBtn1:document.querySelector("[data-modal-add-close]"),modal:document.querySelector("[data-modal-add]"),body:document.querySelector("body")};function d(){o.modal.classList.toggle("is-hidden"),o.body.classList.toggle("no-scroll")}o.openModalBtn1.addEventListener("click",d),o.closeModalBtn1.addEventListener("click",d)}();
+//# sourceMappingURL=take-order.cbed2d43.js.map
