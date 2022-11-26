@@ -147,6 +147,9 @@
   color: #8d9289;
   text-decoration: none;
   margin-bottom: 24px;
+  &:hover,:focus{
+    color: #7be34a;
+  }
 }
 
 .et-text {
@@ -167,6 +170,9 @@
   margin-bottom: 25px;
   @include mobile {
     margin-bottom: 25px;
+  }
+  &:hover,:focus{
+    color: #7be34a;
   }
 }
 
@@ -234,7 +240,7 @@
   height: 95px;
   color: #ffffff;
   @include tablet {
-    width: 590px;
+    min-width: 590px;
     height: 120px;
   }
 }
