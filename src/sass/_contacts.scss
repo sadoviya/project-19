@@ -147,9 +147,8 @@
   color: #8d9289;
   text-decoration: none;
   margin-bottom: 24px;
-  &:hover,
-  :focus {
-    color: #86e543;
+  &:hover,:focus{
+    color: #7be34a;
   }
 }
 
@@ -175,6 +174,9 @@
   }
   @include mobile {
     margin-bottom: 25px;
+  }
+  &:hover,:focus{
+    color: #7be34a;
   }
 }
 
@@ -242,6 +244,7 @@
   height: 95px;
   color: #ffffff;
   @include tablet {
+    min-width: 590px;
     height: 120px;
   }
 }
