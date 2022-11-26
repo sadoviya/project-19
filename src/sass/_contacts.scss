@@ -58,6 +58,7 @@
   margin-right: auto;
   width: 100%;
 
+
   // @media screen and (min-width: 480px) {
   //   width: 480px;
   // }
@@ -146,9 +147,8 @@
   color: #8d9289;
   text-decoration: none;
   margin-bottom: 24px;
-  &:hover,
-  :focus {
-    color: #86e543;
+  &:hover,:focus{
+    color: #7be34a;
   }
 }
 
@@ -175,6 +175,9 @@
   @include mobile {
     margin-bottom: 25px;
   }
+  &:hover,:focus{
+    color: #7be34a;
+  }
 }
 
 .contact-form {
@@ -184,6 +187,7 @@
   @include tablet {
     padding-left: 80px;
     padding-right: 80px;
+        width: 100%;
   }
 }
 
@@ -240,6 +244,7 @@
   height: 95px;
   color: #ffffff;
   @include tablet {
+    min-width: 590px;
     height: 120px;
   }
 }

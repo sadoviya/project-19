@@ -11,7 +11,7 @@
   line-height: 1.16;
 }
 
-@media screen and (max-width: 380px) {
+@media screen and (max-width: 480px) {
   .blog-article-container {
     padding: 0;
   }
@@ -210,5 +210,11 @@
     background-position: 1px 47px, 1px 55px;
     background-repeat: no-repeat;
     background-size: auto;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .article-blog-img {
+    width: 480px;
   }
 }
