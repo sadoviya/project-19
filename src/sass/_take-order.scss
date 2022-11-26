@@ -94,9 +94,9 @@ padding-bottom: 48px;
         width: 850px;
     }
 
-    // @media screen and (min-width: 1280px) {
-        
-    // }
+    @media screen and (min-width: 1280px) {
+        width: 950px;
+    }
 }
 
 .superline2 {
@@ -121,16 +121,16 @@ padding-bottom: 48px;
     box-shadow: 0 4px 25px #28780d40;
 
     @media screen and (min-width: 320px) {
-        width: 350px;
+        width: 365px;
     }
 
     @media screen and (min-width: 768px) {
-        width: 850px;
+        width: 865px;
     }
 
-    // @media screen and (min-width: 1280px) {
-        
-    // }
+    @media screen and (min-width: 1280px) {
+        width: 965px;
+    }
 }
 
 .superline4 {
@@ -581,6 +581,10 @@ padding-bottom: 48px;
 .take-order-form__select:hover {
     background-color: #17573D;
     outline: transparent;
+}
+
+.take-order-form__option {
+    display: none;
 }
 
 .take-order-form__textarea {
