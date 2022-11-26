@@ -1,9 +1,11 @@
+.section {
+  padding-top: 40px;
+}
 .contacts-topitext {
   font-weight: 500;
   font-size: 24px;
   line-height: calc(28 / 24);
   color: #ffffff;
-  margin-top: 40px;
   @include mobile {
     font-weight: 500;
     font-size: 24px;
@@ -29,9 +31,8 @@
 }
 
 .contpic-container {
-
-    margin-left: -15px;
-    margin-right: -15px;
+  margin-left: -15px;
+  margin-right: -15px;
 
   @media screen and (min-width: 480px) {
     width: 480px;
@@ -62,7 +63,6 @@
   // }
 
   @media screen and (min-width: 768px) {
-    width: 768px;
     padding-left: 25px;
     margin-bottom: 40px;
   }
@@ -85,11 +85,11 @@
 
 .con-pic {
   @include tablet {
-    border-radius: 12px;
+    border-radius: 14px;
   }
 
   @include desktop {
-    border-radius: 12px;
+    border-radius: 14px;
   }
 }
 .contacts-picture {
@@ -146,6 +146,10 @@
   color: #8d9289;
   text-decoration: none;
   margin-bottom: 24px;
+  &:hover,
+  :focus {
+    color: #86e543;
+  }
 }
 
 .et-text {
@@ -164,6 +168,10 @@
   color: #8d9289;
   text-decoration: none;
   margin-bottom: 25px;
+  & :hover,
+  :focus {
+    color: #86e543;
+  }
   @include mobile {
     margin-bottom: 25px;
   }
@@ -232,7 +240,6 @@
   height: 95px;
   color: #ffffff;
   @include tablet {
-    width: 590px;
     height: 120px;
   }
 }
