@@ -370,8 +370,9 @@ padding-bottom: 48px;
 }
 
 .take-order__list {
-    @media screen and (min-width: 320px) {
-        display: flex;
+    display: flex;
+
+    @media screen and (min-width: 320px) and (max-width: 767px) {
         gap: 16px;
         margin-top: 16px;
     }
@@ -574,6 +575,10 @@ padding-bottom: 48px;
     @media screen and (min-width: 1280px) {
         font-size: 18px;
         line-height: 1.11;
+
+        &:last-child {
+            margin-bottom: 0;
+        }
     }
 }
 
