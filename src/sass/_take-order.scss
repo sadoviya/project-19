@@ -501,6 +501,10 @@ padding-bottom: 48px;
     @media screen and (min-width: 1280px) {
         font-size: 18px;
         line-height: 1.11;
+
+        &:last-child select {
+        margin-bottom: 0;
+        }
     }
 }
 
@@ -575,10 +579,6 @@ padding-bottom: 48px;
     @media screen and (min-width: 1280px) {
         font-size: 18px;
         line-height: 1.11;
-
-        &:last-child {
-            margin-bottom: 0;
-        }
     }
 }
 
