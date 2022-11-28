@@ -292,6 +292,7 @@ padding-bottom: 48px;
 
 .take-order__photo {
     display: block;
+    border-radius: 14px;
 
     @media screen and (min-width: 320px) {
         width: 288px;
@@ -399,6 +400,7 @@ padding-bottom: 48px;
 
 .take-order__photo--secondary {
     display: block;
+    border-radius: 14px;
 
     @media screen and (min-width: 320px) {
         width: 60px;
