@@ -1,0 +1,2 @@
+(()=>{const o={openModalBtn:document.querySelector("[data-modal-add-open]"),closeModalBtn:document.querySelector("[data-modal-add-close]"),modal:document.querySelector("[data-modal-add]"),body:document.querySelector("body")};function d(){o.modal.classList.toggle("is-hidden"),o.body.classList.toggle("no-scroll")}o.openModalBtn.addEventListener("click",d),o.closeModalBtn.addEventListener("click",d)})();
+//# sourceMappingURL=take-order.52f7188e.js.map
